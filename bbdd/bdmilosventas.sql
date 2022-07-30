@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 30-07-2022 a las 05:38:35
+-- Tiempo de generación: 30-07-2022 a las 05:40:54
 -- Versión del servidor: 10.8.3-MariaDB
 -- Versión de PHP: 8.1.6
 
@@ -42,10 +42,10 @@ CREATE TABLE IF NOT EXISTS `cliente` (
 --
 
 INSERT INTO `cliente` (`IdCliente`, `Dni`, `Nombres`, `Direccion`, `Estado`) VALUES
-(17, '2', 'Juan Guerrero Solis', 'Los Alamos', '1'),
-(18, '1', 'Maria Rosas Villanueva', 'Los Laureles 234', '1'),
-(19, '3', 'Andres de Santa Cruz', 'Av. La Frontera 347', '1'),
-(20, '4', 'Andres Mendoza', 'Chosica, Lurigancho', '1');
+(17, '2', 'Juan Guerrero Solis', '1234', '1'),
+(18, '1', 'Maria Rosas Villanueva', 'prueba 123', '1'),
+(19, '3', 'Andres de Santa Cruz', 'Medrano 123', '1'),
+(20, '4', 'Andres Mendoza', 'Av. Santa fe 123', '1');
 
 -- --------------------------------------------------------
 
